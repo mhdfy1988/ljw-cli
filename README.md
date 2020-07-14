@@ -1,6 +1,6 @@
 # 脚手架工具
 ## 下载
-> npm install ljw-cli
+> npm install -g ljw-cli
 ## 使用
 ### 列表
 > ljw-cli list
