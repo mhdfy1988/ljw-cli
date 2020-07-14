@@ -1,0 +1,29 @@
+#!/usr/bin/env node
+
+const { program } = require("commander")
+const package = require("../package.json")
+const list = require("../lib/list")
+const init = require("../lib/init")
+
+
+program.version(package.version).usage('<command> [options]');
+
+
+program
+    .command('init [template] [project]')
+    .description('初始化模板')
+    .alias('i')
+    .action((templateName,projectName) => {
+        init(templateName,projectName)
+    })
+ 
+program
+    .command('list')
+    .description('列出所有模板')
+    .alias('l')
+    .action(() => {
+        list()
+    })
+
+//展示action结果
+program.parse(process.argv);
