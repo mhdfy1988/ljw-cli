@@ -8,7 +8,7 @@
   },
   "author": "mhdfy1988",
   "license": "MIT",
-  "keywords": ["cli"],
+  "keywords": ["cli","node"],
   "bin": {
     "ljw-cli": "./bin/index"
   },
