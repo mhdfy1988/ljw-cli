@@ -1,12 +1,12 @@
 {
   "name": "ljw-cli",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "this is cli",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "mhdfy1988",
+  "author": "mhdfy1988<luojiawen7000@126.com>",
   "license": "MIT",
   "keywords": ["cli","node"],
   "bin": {
@@ -20,5 +20,10 @@
     "inquirer": "^7.3.2",
     "log-symbols": "^4.0.0",
     "ora": "^4.0.4"
+  },
+  "homepage": "https://github.com/mhdfy1988/ljw-cli",
+  "repository ":{
+    "type": "git",
+    "url": "git+https://github.com/mhdfy1988/ljw-cli.git"
   }
 }
