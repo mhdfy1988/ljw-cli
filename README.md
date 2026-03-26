@@ -17,8 +17,8 @@ ljw-cli list
 当前默认模板里已经包含：
 
 - `vue-simple`：Vue 3 + Vite + TypeScript 模板
-- `webpack-simple`：Webpack 基础模板
-- `koa-simple`：Koa 基础模板
+- `webpack-simple`：Webpack 5 前端模板
+- `koa-simple`：Koa 服务端模板
 
 ## 初始化项目
 
