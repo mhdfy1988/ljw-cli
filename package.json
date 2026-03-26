@@ -1,28 +1,41 @@
 {
   "name": "ljw-cli",
-  "version": "1.0.6",
-  "description": "this is cli",
+  "version": "1.1.0",
+  "description": "用于拉取并初始化项目模板的脚手架工具",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node -e \"console.error('No tests configured'); process.exit(1)\""
   },
   "author": "mhdfy1988<luojiawen7000@126.com>",
   "license": "MIT",
-  "keywords": ["cli","node"],
+  "keywords": [
+    "cli",
+    "scaffold",
+    "template",
+    "node"
+  ],
   "bin": {
     "ljw-cli": "./bin/index"
   },
+  "files": [
+    "bin",
+    "lib",
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
-    "chalk": "^4.1.0",
+    "chalk": "^4.1.2",
     "commander": "^5.1.0",
-    "download-git-repo": "^3.0.2",
-    "handlebars": "^4.7.6",
-    "inquirer": "^7.3.2",
-    "log-symbols": "^4.0.0",
+    "inquirer": "^8.2.7",
+    "log-symbols": "^4.1.0",
     "ora": "^4.0.4"
   },
   "homepage": "https://github.com/mhdfy1988/ljw-cli",
-  "repository ":{
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/mhdfy1988/ljw-cli.git"
   }
